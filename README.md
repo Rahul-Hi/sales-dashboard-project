@@ -15,6 +15,9 @@ Sales Manager / Business Head
 Capping discounts above 20% would increase company profit by 47% — from $286K to $421K —
 without changing headcount, products, or pricing strategy.
 
+## Live Dashboard
+[View Interactive Power BI Dashboard](https://app.powerbi.com/groups/me/reports/aba8a0e4-3815-496f-b4b6-e999f9cfbef9/65c3116e7be3c0d09289)
+
 ## Tools Used
 - Python (pandas, matplotlib, seaborn)
 - SQL (SQLite)
@@ -70,3 +73,12 @@ LIMIT 10
 ![Profit by Category](chart1_category_profit.png)
 ![Region Performance](chart2_region_profit.png)
 ![Monthly Sales Trend](chart3_monthly_trend.png)
+![Sales Forecast](chart4_forecast.png)
+
+## Sales Forecast
+Using Exponential Smoothing on 4 years of historical data, predicted next 3 months of sales:
+- January 2018: $49,689
+- February 2018: $41,838
+- March 2018: $74,877 (seasonal spike expected — consistent with historical March peaks)
+
+**Business implication:** Marketing campaigns should be prepared by February to capture the March demand surge.
